@@ -6,7 +6,6 @@ export default class Navbar extends Component {
   scrollToTop = () => {
     scroll.scrollToTop();
   };
-
   render() {
     return (
       <nav className="nav" id="navbar">
@@ -27,7 +26,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 1
+                1. What is COVID-19?
               </Link>
             </li>
             <li className="nav-item">
@@ -39,7 +38,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 2
+                2. How does the virus spread?
               </Link>
             </li>
             <li className="nav-item">
@@ -51,7 +50,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 3
+                3. Where are we in the curve?
               </Link>
             </li>
             <li className="nav-item">
@@ -63,7 +62,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 4
+                4. How do I prevent myself from getting COVID-19?
               </Link>
             </li>
             <li className="nav-item">
@@ -75,7 +74,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 5
+                5. What are doing to cure it?
               </Link>
             </li>
           </ul>
