@@ -1,0 +1,56 @@
+[debug] [2020-04-12T03:58:21.598Z] ----------------------------------------------------------------------
+[debug] [2020-04-12T03:58:21.600Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2020-04-12T03:58:21.600Z] CLI Version:   8.0.2
+[debug] [2020-04-12T03:58:21.600Z] Platform:      darwin
+[debug] [2020-04-12T03:58:21.601Z] Node Version:  v13.1.0
+[debug] [2020-04-12T03:58:21.602Z] Time:          Sat Apr 11 2020 20:58:21 GMT-0700 (Pacific Daylight Time)
+[debug] [2020-04-12T03:58:21.602Z] ----------------------------------------------------------------------
+[debug] [2020-04-12T03:58:21.602Z] 
+[debug] [2020-04-12T03:58:21.610Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-12T03:58:21.611Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/macadmin/covidwiki
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using covidwiki-71a23.
+[debug] [2020-04-12T03:58:28.264Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-04-12T03:58:28.264Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-04-12T03:58:28.455Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 12 Apr 2020 03:58:29 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-12T03:58:28.477Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/covidwiki-71a23  
+ 
+[debug] [2020-04-12T03:58:28.719Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 12 Apr 2020 03:58:29 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-04-12T05:52:38.408Z] TypeError: Cannot read property 'setRawMode' of null
+    at ReadStream.setRawMode (tty.js:71:28)
+    at Interface._setRawMode (readline.js:277:16)
+    at Interface.close (readline.js:400:10)
+    at ReadStream.ontermend (readline.js:187:10)
+    at ReadStream.emit (events.js:215:7)
+    at ReadStream.EventEmitter.emit (domain.js:478:20)
+    at endReadableNT (_stream_readable.js:1199:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
