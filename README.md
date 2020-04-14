@@ -1,7 +1,5 @@
 # COVID-Wiki
 
-![React with Smooth Scrolling](./images/cover.png)
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## To Run
@@ -16,4 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
           `-    \`_`"'-
 
 2) Reactstrap / Navbar & Image Carousel - https://reactstrap.github.io/components/navbar/
-3) Install Firebase (npm 
+3) Install Firebase 
+(npm install rebase --save)
+
+
