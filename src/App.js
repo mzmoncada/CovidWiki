@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Navbar2 from "./Components/NavbarV2";
@@ -27,6 +26,7 @@ import { Player } from 'video-react';
 //Import the React Youtube Playlist component
 //import '../node_modules/react-youtube-playlist/dist/styles';
 import YouTubePlaylist from 'react-youtube-playlist';
+//import 'react-youtube-playlist/dist/styles'
 
 //Import Iframe
 import Iframe from 'react-iframe'
