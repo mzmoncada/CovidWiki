@@ -47,7 +47,7 @@ class App extends Component {
             id="section1"
         />
         <Section
-          title="1. Live Counters - Keep Up to Date"
+          title="0. Live Counters"
           subtitle={text2}
           dark={true}
           id="section2"
@@ -61,7 +61,7 @@ class App extends Component {
         height= "600px"
         border= "0px none"/>
         <Section
-          title="2. What is COVID-19?"
+          title="1. What is COVID-19?"
             subtitle={text1}
             dark={true}
             id="section1"
@@ -84,13 +84,13 @@ class App extends Component {
         display="initial"
         position="relative"/> 
         <Section
-          title="3. Where are we in the curve?"
+          title="2. Where are we in the curve?"
           subtitle={text3}
           dark={true}
           id="section3"
         />
         <Section
-          title="4. How do I prevent myself from getting COVID-19?"
+          title="3. How do I prevent myself from getting COVID-19?"
           subtitle={text4}
           dark={false}
           id="section4"
@@ -101,7 +101,7 @@ class App extends Component {
         height= "600px" 
         border= "0px none"/>
         <Section
-          title="5. What are we doing to cure it?"
+          title="4. What are we doing to cure it?"
           subtitle={text5}
           dark={true}
           id="section5"
